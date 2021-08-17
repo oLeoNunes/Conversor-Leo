@@ -8,18 +8,16 @@ async function converter() {
         return resposta.json()
     })
 
-    console.log(moedas)
-
-    let dolarr = moedas.USDBRL.high
-    let euror = moedas.EURBRL.high
+    let dolarr = moedas.USDBRL.varBid
+    let euror = moedas.EURBRL.varBid
     let real = 1
 
-    let reald = moedas.BRLUSD.high
-    let eurod = moedas.EURUSD.high
-    let dolar =1
+    let reald = moedas.BRLUSD.varBid
+    let eurod = moedas.EURUSD.varBid
+    let dolar = 1
 
-    let dolare = moedas.USDEUR.high
-    let reale = moedas.BRLEUR.high
+    let dolare = moedas.USDEUR.varBid
+    let reale = moedas.BRLEUR.varBid
     let euro = 1
 
 
