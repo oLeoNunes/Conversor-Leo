@@ -8,16 +8,16 @@ async function converter() {
         return resposta.json()
     })
 
-    let dolarr = moedas.USDBRL.varBid
-    let euror = moedas.EURBRL.varBid
+    let dolarr = moedas.USDBRL.bid
+    let euror = moedas.EURBRL.bid
     let real = 1
 
-    let reald = moedas.BRLUSD.varBid
-    let eurod = moedas.EURUSD.varBid
+    let reald = moedas.BRLUSD.bid
+    let eurod = moedas.EURUSD.bid
     let dolar = 1
 
-    let dolare = moedas.USDEUR.varBid
-    let reale = moedas.BRLEUR.varBid
+    let dolare = moedas.USDEUR.bid
+    let reale = moedas.BRLEUR.bid
     let euro = 1
 
 
